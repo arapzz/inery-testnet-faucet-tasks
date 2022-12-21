@@ -1,6 +1,6 @@
 ## INERY TASK 4 add repo inery-blockchain/inery-testnet-faucet-tasks ##
 
-1. Tetapkan nama akun sebagai variabel env dan Set PATH env
+🌐 Tetapkan nama akun sebagai variabel env dan Set PATH env
 Agar tidak berulang menulis nama Akun Inery, kita perlu mengatur nama akun sebagai Variable env, silahkan ganti Nama_Akun_Inery dengan Nama Akun Inerymu
 
 ```
@@ -8,7 +8,7 @@ IneryAccname=Nama_Akun_Inery
 export PATH="$PATH:$HOME/inery.cdt/bin:$HOME/inery-node/inery/bin"
 ```
 
-2. Membuat Proyek Tugas Frok
+🌐 Membuat Proyek Tugas Frok
 Kunjungi Halaman : https://github.com/inery-blockchain/inery-testnet-faucet-tasks
 
 Klik tanda panah ke bawah di samping tulisan Fork dan klik Create a new fork dan lanjutkan membuat frok
@@ -29,14 +29,14 @@ cd ~/inery-testnet-faucet-tasks
 mkdir $IneryAccname
 ```
 
-3. Jalankan Perintah Build-Web:
+🌐 Jalankan Perintah Build-Web:
 
 ```
 cd ~/ineryjs
 npm run build-web
 ```
 
-4. mengcopy Folder disit-web ke Project
+🌐 mengcopy Folder disit-web ke Project
 
 ```
 cp -r $HOME/ineryjs/dist-web/ $HOME/inery-testnet-faucet-tasks/$IneryAccname/dist-web/
@@ -65,7 +65,7 @@ Masukan Script di bawah ini dan jangan lupa ganti IPmu serta buang tanda <>
 </script>
 ```
 
-6. Membuat Tutorial (bisa diskip bagian ini kalau ragu dengan tasknya)
+🌐 Membuat Tutorial (bisa diskip bagian ini kalau ragu dengan tasknya)
 Silahkan buat tutorial mengenai Inery sebagai bagian dari Solution Project
 
 ```
@@ -73,7 +73,7 @@ cd ~/inery-testnet-faucet-tasks/$IneryAccname
 nano README.md
 ```
 
-7. Menghubungkan Task ke Github
+🌐 Menghubungkan Task ke Github
 
 ```
 cd ~/inery-testnet-faucet-tasks/
@@ -84,7 +84,7 @@ git branch -M main
 git push -u origin main
 ```
 
-8. Kembali lagi ke Github
+🌐 Kembali lagi ke Github
 Silahkan Refresh repository Fork yang dibuat di step 2 tadi, lalu klik commit kedepan
 
 Lanjutkan Buat permintaan tarik
